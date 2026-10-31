@@ -7,30 +7,30 @@ class Revenexx < Formula
   # Homebrew style: no trailing period, and never lead with the formula name.
   desc "Command-line interface for the Revenexx platform"
   homepage "https://github.com/revenexx-sdks/cli"
-  version "0.7.4"
+  version "0.7.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/revenexx-sdks/cli/releases/download/v#{version}/revenexx-darwin-arm64"
-      sha256 "b97fa0d75f16ea8cea1f0073546ff11163dc1a6a10733940555e069dc01b7c94"
+      sha256 "e57c382cd216c0cec385c857acf2cc6660b2ac808ccf084b3a7a3e0f8db63b97"
     end
 
     on_intel do
       url "https://github.com/revenexx-sdks/cli/releases/download/v#{version}/revenexx-darwin-x64"
-      sha256 "43f191ce4ed17adbe41effb706e3fd03c95921226d98c87685805ff1453f3338"
+      sha256 "a610265c64c5fbc2ce96355ac281d918083358a429b7b7e395b999a7df8b2e05"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/revenexx-sdks/cli/releases/download/v#{version}/revenexx-linux-arm64"
-      sha256 "3e3af575eb05c4dc5c2602005ffa36f79dd2cd871950c8d1b6b58241e9cbc3a1"
+      sha256 "3438c0e3cbc22a414bb7c832ca1d7ec3db754e316ae9d77cd5bc49f4c6f8ac27"
     end
 
     on_intel do
       url "https://github.com/revenexx-sdks/cli/releases/download/v#{version}/revenexx-linux-x64"
-      sha256 "0885ea7fad113a880441b46ec6c0fdcababdaa16b81ee875a1f40e6c7395aa34"
+      sha256 "4127650105a8298f07bc8f813d250aebf1e44c8b9c80ed7b24b718aa403b9da3"
     end
   end
 
